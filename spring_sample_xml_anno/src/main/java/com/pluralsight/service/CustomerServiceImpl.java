@@ -12,6 +12,13 @@ public class CustomerServiceImpl implements CustomerService {
 
     // @Autowired
     private CustomerRepository customerRepository;
+
+    @Autowired
+    public CustomerServiceImpl(CustomerRepository customerRepository){
+        System.out.println("We are using constructor injection");
+        this.customerRepository = customerRepository;
+    }
+
     public CustomerRepository getCustomerRepository() {
         return customerRepository;
     }
