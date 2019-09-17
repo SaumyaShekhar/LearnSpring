@@ -10,3 +10,9 @@ Autowire - Better with Annotation
 - Setters
 
 JSR-330: Dependency Injection Specification for Java
+
+
+Spring Configuration using Java
+- No XML Configuration
+- Add @Configuration annotation in Java file
+- ApplicationContext replaced by @Configuration
