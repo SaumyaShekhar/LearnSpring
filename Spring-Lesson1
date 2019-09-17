@@ -1,0 +1,51 @@
+# Spring - The Big Picture
+Modular Architecture - Multiple Components coming together in Spring Framework
+*Sx Key Areas*
+- Core (Center is Dependency Injection)
+- Web 
+  - Spring Web MVC - A servlet is an object that receives a request and generates the response. 
+    Without MVC Web Server-> Servlet APi -> Business Logic
+    With MVC Web Server -> Servlet API -> Spring web MVC -> Business Logic
+    Advantages - High Level API 
+    
+  - Spring WebFlux - Web Requests are in async. No Blocking. 
+      
+- AOP Aspect Oriented Programming. A way of programming that increases organization of code for concerns that span multiple tiers or layers of an application
+ Example - @PreAuthorize(hasRole('admin'))
+- Data access - No BoilerPlate Code Needed. 
+- Integration
+- Testing
+
+Spring Framework - It came as a result to improve the J2EE (Java EE) Complexity
+Spring Boot- Simplified the spring framework. It made the development and deployment easy for spring projects.
+
+*Why Spring?*
+- Good Alternative to J2EE
+- Spring makes it easy to develop java
+- Flexible, modular and backwards compatible
+- Large and active community
+
+*Spring Boot (One of the Spring Projects)*
+  Features
+  1. Auto Configuration - It attempts to automatically add configuration to your project depending on the dependencies mentioned.Auto          configurations are contextually aware and smart.      
+     It is very easy to enable. Just by adding below Annotation
+     @EnableAutoConfiguration
+     public class DemoApplication{
+     ....
+     }
+     
+  2. Standalone - Boot makes it easy to create standalone  
+      Without Spring Boot -
+      Package Application
+      Choose & Downalod Webserver
+      Configure Webserver
+      Delpoy Applicatiooon and Start Webserver
+
+      With Spring Boot -
+      Package the Application
+      Run the Application (java -jar my-application.jar) (Spring Boot takes care of internally starting the server and running)
+    
+  3. Opinionated - Spring Intializer (User just need to mention the dependencies and spring creates the project depending on the              dependencies)
+      
+  
+  
