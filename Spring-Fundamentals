@@ -1,0 +1,8 @@
+@Component - Any POJO
+@Service - Not Webservice. It is the tier where business logic is contained.
+@Repository - Data Access Tier. DAL. Whatever we use JPA etc, we label them as Repository
+
+Autowire - Better with Annotation
+- Member Variables (@AutoWired)
+- Constructor
+- Setters
