@@ -19,7 +19,7 @@ Spring Configuration using Java
 
 Scopes:
 1. Singleton - Default Bean Scope in Spring, One Instantiation, Single Instance per Spring Container. Can be added using @Scope
-2. Prototype
+2. Prototype - Unique Instance with each request
 3. Request
 4. Session
 5. Global
