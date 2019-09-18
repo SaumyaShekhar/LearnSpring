@@ -1,20 +1,13 @@
 package com.pluralsight.repository;
 
 import com.pluralsight.model.Customer;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
-
-    public String getDbUserName() {
-        return dbUserName;
-    }
-
-    public void setDbUserName(String dbUserName) {
-        this.dbUserName = dbUserName;
-    }
-
+    @Value("${dbUserName}")
     private String dbUserName;
     @Override
     public List<Customer> findAll() {
