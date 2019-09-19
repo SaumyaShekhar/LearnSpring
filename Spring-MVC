@@ -1,0 +1,17 @@
+What is Spring MVC?
+- It is web framework build around spring basics. It can be unit tested.
+- It is very light weight. JSF is very weight, you have to do things their way.
+- Based on front controller pattern
+- Built around Struts
+- Annotation Based Configuration
+- Seamless integration with other Spring projects
+
+Incoming Request -> Servlet Container -> Dispatch to one of our controllers -> Backend
+
+Dispatcher Servlet-  Entry Point
+Controller - Handles the request and route to
+Request Mapping - URL, Request Type
+ViewResolver - Locate JSP Page
+Servlet Config - Configuration per Dispatcher Servlet
+Bean - Spring Configured Bean
+POJO - Plain Old Java Object
