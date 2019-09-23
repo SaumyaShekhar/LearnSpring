@@ -15,3 +15,5 @@ ViewResolver - Locate JSP Page
 Servlet Config - Configuration per Dispatcher Servlet
 Bean - Spring Configured Bean
 POJO - Plain Old Java Object
+
+Spring MVC 
